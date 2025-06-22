@@ -1,0 +1,38 @@
+<!-- index.html - Expert AI by Abduraxmon -->
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Expert AI - Abduraxmon</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/4712/4712109.png" />
+</head>
+<body>
+  <div id="app" class="chat-wrapper">
+    <header class="chat-header">
+      <h1>🧠 Expert AI <span>by Abduraxmon</span></h1>
+      <button id="toggleTheme">🌗 Rejim</button>
+    </header>
+
+    <main id="chat" class="chat-window">
+      <!-- AI va foydalanuvchi xabarlari shu yerga tushadi -->
+    </main>
+
+    <div class="input-area">
+      <button id="voiceStart">🎤</button>
+      <input type="text" id="userInput" placeholder="Savolingizni yozing..." />
+      <button onclick="handleUserInput()">Yubor</button>
+    </div>
+
+    <footer class="chat-footer">
+      <small>© 2025 Expert AI | Powered by <strong>Abduraxmon</strong></small>
+    </footer>
+  </div>
+
+  <!-- JavaScriptlar -->
+  <script src="brain.js"></script>
+  <script src="voice.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
